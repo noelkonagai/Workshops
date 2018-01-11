@@ -15,8 +15,8 @@ Kickstart your software engineer career with a star profile on GitHub. Come to t
 * basics of markdown (readme.MD)
 * watching, starring projects, submitting issues, contributions
 
-**Tensorflow: The Basics 
-Mar 12 3:30 PM**
+**Tensorflow: The Basics**
+**Mar 12 3:30 PM**
 
 Tensorflow is crucial in building neural networks faster. However, the basics of Tensorflow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end we will build a rudimentary regression model to put into practice your knowledge of Tensorflow. This workshop is the first of the Tensorflow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshops lays down the foundation for the subsequent two workshops.
 
