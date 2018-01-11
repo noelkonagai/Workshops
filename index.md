@@ -1,15 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to RITS Github Pages
 
-You can use the [editor on GitHub](https://github.com/noelkonagai/rits.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is where the descriptions of the workshops will be uploaded
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Data Science Workshops
 
-### Markdown
+#### ** GitHub **
+#### ** Feb 05 11:00 AM ** 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+Kickstart your software engineer career with a star profile on GitHub. Come to this workshop to learn about the basics of git versioning, as well as to learn some tips on building your portfolio. You will be working in groups to simulate versioning problems. This workshop covers:
+* creating and using a repository
+* starting a branch
+* creating new files and committing to the repository
+* open and merge a pull request
+* basics of markdown (readme.MD)
+* watching, starring projects, submitting issues, contributions
 
 # Header 1
 ## Header 2
