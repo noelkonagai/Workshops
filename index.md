@@ -1,11 +1,11 @@
-## Welcome to RITS Github Pages
+## Welcome to Noel's Workshop Pages
 
 This is where the descriptions of the workshops will be uploaded
 
-### Data Science Workshops
+## Spring 2018 Workshop Schedule
 
-#### ** GitHub **
-#### ** Feb 05 11:00 AM ** 
+**GitHub
+Feb 05 11:00 AM** 
 
 Kickstart your software engineer career with a star profile on GitHub. Come to this workshop to learn about the basics of git versioning, as well as to learn some tips on building your portfolio. You will be working in groups to simulate versioning problems. This workshop covers:
 * creating and using a repository
@@ -15,27 +15,16 @@ Kickstart your software engineer career with a star profile on GitHub. Come to t
 * basics of markdown (readme.MD)
 * watching, starring projects, submitting issues, contributions
 
-# Header 1
-## Header 2
-### Header 3
+**Tensorflow: The Basics 
+Mar 12 3:30 PM**
+Tensorflow is crucial in building neural networks faster. However, the basics of Tensorflow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end we will build a rudimentary regression model to put into practice your knowledge of Tensorflow. This workshop is the first of the Tensorflow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshops lays down the foundation for the subsequent two workshops.
 
-- Bulleted
-- List
+**Tensorflow: Wide & Deep Learning
+Mar 14 3:30 PM**
 
-1. Numbered
-2. List
+TBD
 
-**Bold** and _Italic_ and `Code` text
+**Tensorflow: Recurrent Neural Networks
+Mar 19 3:30 PM**
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/noelkonagai/rits.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+TBD
