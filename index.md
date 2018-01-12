@@ -1,5 +1,5 @@
 # Welcome to Noel's Workshop Pages
-# Spring 2018 Workshops
+### Spring 2018 Workshops
 
 This is where the descriptions of the workshops will be uploaded
 
