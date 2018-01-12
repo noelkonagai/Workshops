@@ -2,7 +2,9 @@
 
 This is where the descriptions of the workshops will be uploaded
 
-## Spring 2018 Workshop Schedule
+# Spring 2018 Workshops
+
+## Kickstarters
 
 **GitHub**
 
