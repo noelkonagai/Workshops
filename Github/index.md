@@ -83,3 +83,5 @@ After you create branches, you can make changes in the files you were working in
 **3. Add, Commit, Push**
 
 Similar to Exercise 1, you can now add the file with: ```git add .``` then commit the file with ```git commit -m"first branch commit"``` and finally push with ```git push -u origin <name of your branch>```.
+
+## Exercise 3: Group work, merging branches
