@@ -5,7 +5,7 @@ This is where the descriptions of the workshops will be uploaded
 
 ## Kickstarters
 
-**GitHub**
+[**GitHub**](https://noelkonagai.github.io/Workshops/Github/)
 
 _Feb 05 11:00 AM_
 
