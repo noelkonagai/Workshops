@@ -6,13 +6,13 @@ Think of Github as the Facebook for those who write code. You want to share your
 
 ## Exercise 1: Working on your own
 
-### Part 1
+### Part 1: setting up your environment
 1. Create a Folder which will be your parent directory for your code.
 2. Create a text file in which the first line reads as "first line"
 3. Open Github and create a repository. Save the link it provides you.
 4. Open Terminal type ```cd``` and drag your folder to the Terminal. Then type the following commands:
 
-## Part 2
+### Part 2: initialize, add, commit, remote, push
 **1. Initializing the repository**
 
 ```bash
