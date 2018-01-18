@@ -21,6 +21,7 @@ Adding all files
 ```bash
 git add .
 ```
+
 Adding a specific file
 ```bash
 git add ``` and drag your file to the terminal
@@ -28,6 +29,7 @@ git add ``` and drag your file to the terminal
 **Committing the changes**
 
 Alternatively, here you may replace ```"first commit"``` with another commit message. It helps you to see what were the last updates you made to the files.
+
 ```bash
 git commit -m"first commit"
 ```
