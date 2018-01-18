@@ -39,7 +39,8 @@ git commit -m"first commit"
 **Adding a Remote**
 
 ```bash
-git add remote origin``` 
+git add remote origin
+``` 
 
 paste here the URL that you saved
 
