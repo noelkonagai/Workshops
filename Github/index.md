@@ -50,4 +50,7 @@ paste here the URL that you saved
 git push -u origin master
 ```
 
+Now you can check the changes on your repository page on Github.
+
+## Exercise 2: Creating Branches
 
