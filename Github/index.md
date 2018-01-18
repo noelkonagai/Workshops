@@ -24,7 +24,9 @@ git add .
 
 Adding a specific file
 ```bash
-git add ``` and drag your file to the terminal
+git add
+```
+and drag your file to the terminal
 
 **Committing the changes**
 
@@ -37,7 +39,9 @@ git commit -m"first commit"
 **Adding a Remote**
 
 ```bash
-git add remote origin``` paste here the URL that you saved
+git add remote origin``` 
+
+paste here the URL that you saved
 
 **Staging (pushing) the changes**
 
