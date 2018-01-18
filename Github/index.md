@@ -56,3 +56,21 @@ Now you can check the changes on your repository page on Github.
 
 ## Exercise 2: Creating Branches
 
+With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch.
+
+**Creating a branch**
+
+```bash
+git checkout -b noel-s-branch
+```
+
+Using this you will be switched to ```noel-s-branch```
+
+**Basing your new branch on an existing branch**
+
+You can base your branch on an existing branch with the following command
+
+```bash
+git checkout -b new-branch existing-branch
+```
+
