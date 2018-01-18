@@ -6,18 +6,20 @@ Think of Github as the Facebook for those who write code. You want to share your
 
 ## Exercise 1: Working on your own
 
+### Part 1
 1. Create a Folder which will be your parent directory for your code.
 2. Create a text file in which the first line reads as "first line"
 3. Open Github and create a repository. Save the link it provides you.
 4. Open Terminal type ```cd``` and drag your folder to the Terminal. Then type the following commands:
 
-**Initializing the repository**
+## Part 2
+**1. Initializing the repository**
 
 ```bash
 git init
 ```
 
-**Adding files**
+**2. Adding files**
 
 Adding all files
 ```bash
@@ -30,7 +32,7 @@ git add <file>
 ```
 and drag your file to the terminal
 
-**Committing the changes**
+**3. Committing the changes**
 
 Alternatively, here you may replace ```"first commit"``` with another commit message. It helps you to see what were the last updates you made to the files.
 
@@ -38,7 +40,7 @@ Alternatively, here you may replace ```"first commit"``` with another commit mes
 git commit -m"first commit"
 ```
 
-**Adding a Remote**
+**4. Adding a Remote**
 
 ```bash
 git add remote origin <url>
@@ -46,7 +48,7 @@ git add remote origin <url>
 
 paste here the URL that you saved
 
-**Staging (pushing) the changes**
+**5. Staging (pushing) the changes**
 
 ```bash
 git push -u origin master
@@ -58,8 +60,9 @@ Now you can check the changes on your repository page on Github.
 
 With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch.
 
-**Creating a branch**
+**1. Creating a branch**
 
+**Creating a new branch**
 ```bash
 git checkout -b noel-s-branch
 ```
@@ -74,3 +77,10 @@ You can base your branch on an existing branch with the following command
 git checkout -b new-branch existing-branch
 ```
 
+**2. Modify your text file**
+
+After you create branches, you can make changes in the files you were working in. Add some text to the second line.
+
+**3. Add, Commit, Push**
+
+Similar to Exercise 1, you can now add the file with: ```git add .``` then commit the file with ```git commit -m"first branch commit"``` and finally push with ```git push -u origin <name of your branch>```.
