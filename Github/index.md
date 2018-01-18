@@ -62,14 +62,13 @@ With the branches you create, you are managing the versions of the file you are 
 
 **1. Creating a branch**
 
-**Creating a new branch**
+Creating a new branch
 ```bash
 git checkout -b noel-s-branch
 ```
-
 Using this you will be switched to ```noel-s-branch```
 
-**Basing your new branch on an existing branch**
+Basing your new branch on an existing branch
 
 You can base your branch on an existing branch with the following command
 
