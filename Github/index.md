@@ -10,16 +10,37 @@ Think of Github as the Facebook for those who write code. You want to share your
 4. Open Terminal type ```cd``` and drag your folder to the Terminal. Then type the following commands:
 
 **Initializing the repository**
+
 ```bash
 git init
 ```
 
 **Adding files**
+
 Adding all files
 ```bash
 git add .
 ```
 Adding a specific file
 ```bash
-git add __drag your file to the terminal
+git add ``` and drag your file to the terminal
+
+**Committing the changes**
+
+Alternatively, here you may replace ```"first commit"``` with another commit message. It helps you to see what were the last updates you made to the files.
+```bash
+git commit -m"first commit"
 ```
+
+**Adding a Remote**
+
+```bash
+git add remote origin``` paste here the URL that you saved
+
+**Staging (pushing) the changes**
+
+```bash
+git push -u origin master
+```
+
+
