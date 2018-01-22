@@ -103,12 +103,18 @@ Similar to Exercise 1, you can now add the file with: ```git add .``` then commi
 
 Once you think your code is ready, you can merge it back to your original master.
 
+**4. Switch to your master**
+
 ```bash
-git commit -am"<your commit message>"
-git push
+git checkout master
 ```
 
-**2. Merge**
+**5. Merge & Push**
+
+```bash
+git merge dev
+git push
+```
 
 
 ## Exercise 3: Group work, simulation of a dev team
