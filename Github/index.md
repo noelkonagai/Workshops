@@ -118,15 +118,18 @@ git push
 
 ## Exercise 3: Group work, simulation of a dev team
 
-This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. First navigate into your Desktop with the following command.
+This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. I will pair you into groups of two or three. There will be a repository owner and one or two collaborators.
+
+**If you are a collaborator, follow these steps.**
+
+First navigate into your Desktop with the following command.
 
 ```bash
 cd Desktop
 ```
 
-Then make a clone of the repository with the following command.
+Ask for the repository URL from the repo owner. Then make a clone of the repository with the following command.
 
 ```bash
 git clone <URL of the repository>
 ```
-
