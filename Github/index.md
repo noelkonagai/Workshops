@@ -6,7 +6,9 @@ Think of Github as the Facebook for those who write code. You want to share your
 
 ## Useful resources
 [Github Flow - The core steps of working in Github](https://guides.github.com/introduction/flow/)
+
 [Configuring your username](https://help.github.com/articles/setting-your-username-in-git/)
+
 [Youtube: The Coding Train - Git and Github for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 
 ## Glossary of Terms
