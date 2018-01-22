@@ -58,7 +58,7 @@ Now you can check the changes on your repository page on Github.
 
 ## Exercise 2: Creating Branches
 
-With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch.
+With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch. Branching also helps to distribute tasks between developers that work on the same code.
 
 **1. Creating a branch**
 
