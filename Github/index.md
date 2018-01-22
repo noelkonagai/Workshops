@@ -128,8 +128,22 @@ First navigate into your Desktop with the following command.
 cd Desktop
 ```
 
-Ask for the repository URL from the repo owner. Then make a clone of the repository with the following command.
+Ask for the repository URL from the repo owner. First fork the repository, then make a clone of the forked repository with the following command.
 
 ```bash
 git clone <URL of the repository>
 ```
+
+Then modify the files in it, and push them to your own repository.
+
+```bash
+git commit -am"<commit message>"
+git push
+```
+
+Then navigate to your forked repository, and make a pull request to the original owner of the repository. Making a pull request means "hey, I added a new feature, check it out and if you like it, merge it into your program!"
+
+**If you are the repository owner, follow these steps.**
+
+You can check now your incoming pull requests, and decide whether you want to accept the changes or not.
+
