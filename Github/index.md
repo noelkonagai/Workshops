@@ -101,7 +101,17 @@ After you create branches, you can make changes in the files you were working in
 
 Similar to Exercise 1, you can now add the file with: ```git add .``` then commit the file with ```git commit -m"first branch commit"``` and finally push with ```git push -u origin <name of your branch>```.
 
-## Exercise 3: Group work, cloning, merging branches
+Once you think your code is ready, you can merge it back to your original master.
+
+```bash
+git commit -am"<your commit message>"
+git push
+```
+
+**2. Merge**
+
+
+## Exercise 3: Group work, simulation of a dev team
 
 This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. First navigate into your Desktop with the following command.
 
@@ -114,21 +124,4 @@ Then make a clone of the repository with the following command.
 ```bash
 git clone <URL of the repository>
 ```
-
-**1. Create your own branch based off of the master branch & push**
-
-You will be adding a line to the markdown file in addition to the rest of the lines. To do so, you need to create your own working branch.
-
-```bash
-git checkout -b <your branch name>
-```
-
-Now you can add a line to your markdown file. Save and then type the command:
-
-```bash
-git commit -am"<your commit message>"
-git push
-```
-
-**2. Merge **
 
