@@ -116,7 +116,6 @@ git merge dev
 git push
 ```
 
-
 ## Exercise 3: Group work, simulation of a dev team
 
 This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. First navigate into your Desktop with the following command.
