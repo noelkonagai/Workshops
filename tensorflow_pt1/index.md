@@ -129,7 +129,7 @@ array([[20, 14],
 
 **We keep talking about tensors, but what on earth are they?**
 
-> The central unit of data in TensorFlow is the tensor. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's rank is its number of dimensions. [source](https://www.tensorflow.org/get_started/get_started)
+> The central unit of data in TensorFlow is the tensor. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's rank is its number of dimensions. ([source](https://www.tensorflow.org/get_started/get_started))
 
 ```python
 3 # a rank 0 tensor; a scalar with shape []
