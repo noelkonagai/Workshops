@@ -104,8 +104,41 @@ for op in operations:
 
 If you are curious what is the difference between ```tf.Session()``` and ```tf.InteractiveSession()``` read [this Stackoverflow post](https://stackoverflow.com/questions/41791469/whats-the-difference-between-tf-session-and-tf-interactivesession).
 
+## Recap of Matrix Multiplication
 
+Since one of the building blocks of machine learning is a thorough understanding of linear algebra, let us recap matrix multiplication with ```tf.matmul()```.
 
+Create two tensor constants with shape ```[3,3]``` and ```[3,2]```
+
+```python
+a = tf.constant([1, 2, 3, 4, 5, 6, 7, 8, 9], shape = [3, 3])
+b = tf.constant([6, 5, 4, 3, 2, 1], shape = [3, 2])
+```
+
+and now multiply them.
+
+```python
+c = tf.matmul(a,b)
+c.eval()
+```
+```bash
+array([[20, 14],
+       [56, 41],
+       [92, 68]], dtype=int32)
+```
+
+**We keep talking about tensors, but what on earth are they?**
+
+> The central unit of data in TensorFlow is the tensor. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's rank is its number of dimensions. [source](https://www.tensorflow.org/get_started/get_started)
+
+```python
+3 # a rank 0 tensor; a scalar with shape []
+[1., 2., 3.] # a rank 1 tensor; a vector with shape [3]
+[[1., 2., 3.], [4., 5., 6.]] # a rank 2 tensor; a matrix with shape [2, 3]
+[[[1., 2., 3.]], [[7., 8., 9.]]] # a rank 3 tensor with shape [2, 1, 3]
+```
+
+More information on the ```tf.matmul()``` API [here](https://www.tensorflow.org/api_docs/python/tf/matmul).
 
 (Workshops materials to be continued and updated.)
 
