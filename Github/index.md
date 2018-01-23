@@ -130,7 +130,6 @@ Ask for the repository URL from the repo owner. First fork the repository, then 
 git clone <URL of the repository>
 ```
 
-<<<<<<< HEAD
 Then modify the files in it, and push them to your own repository.
 
 ```bash
@@ -146,7 +145,7 @@ You can check now your incoming pull requests, and decide whether you want to ac
 
 The reason why we had to use Forking is because of push and pull permission access. In a proper developer team, you would not be using open-source collaborative platform to create your code, and pushing/pulling directly from the repository branches would not be an issue. 
 
-=======
+
 ## Further resources
 
 Github Help [Official Documentation](https://help.github.com/)
@@ -154,4 +153,4 @@ Github Help [Official Documentation](https://help.github.com/)
 Github Guides [Further Tutorials](https://guides.github.com/)
 
 Youtube: The Coding Train's [Git and Github for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
->>>>>>> dev
+
