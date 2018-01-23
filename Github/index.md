@@ -4,13 +4,9 @@
 
 Think of Github as the Facebook for those who write code. You want to share your code _(create a repository)_, you want to like someone's code _(starring repositories)_, you want to jump into conversations about code because they might have a bug _(to submit an issue)_. Your future employer might also ask for your Github, so building your Github presence is like building a portfolio. But at its core is Git, which is a version control system. In a team setting, you will be able to independently and parallely work on a code and later on _merge_ the changes into a single file. These parallel workflows are called _branches_. I will walk you through some of the concepts and techniques that lay the foundation for you to master Github. We will be simulating a coding project where you are supposed to overcome the challenges that come with versioning.
 
-## Useful resources
+## 5 min reader before the workshop
 
 Github Guides [Github Flow](https://guides.github.com/introduction/flow/)
-
-Github Help [Configuring your username](https://help.github.com/articles/setting-your-username-in-git/)
-
-Youtube: The Coding Train's [Git and Github for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 
 ## Glossary of Terms
 - repository
@@ -149,3 +145,10 @@ You can check now your incoming pull requests, and decide whether you want to ac
 
 The reason why we had to use Forking is because of push and pull permission access. In a proper developer team, you would not be using open-source collaborative platform to create your code, and pushing/pulling directly from the repository branches would not be an issue. 
 
+## Further resources
+
+Github Help [Official Documentation](https://help.github.com/)
+
+Github Guides [Further Tutorials](https://guides.github.com/)
+
+Youtube: The Coding Train's [Git and Github for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
