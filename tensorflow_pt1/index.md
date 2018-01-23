@@ -102,7 +102,7 @@ for op in operations:
 	print("\n")
 ```
 
-If you are curious what is the difference between ```tf.Session()``` and ```tf.InteractiveSession()``` read [this Stackoverflow post](sess = tf.InteractiveSession()).
+If you are curious what is the difference between ```tf.Session()``` and ```tf.InteractiveSession()``` read [this Stackoverflow post](https://stackoverflow.com/questions/41791469/whats-the-difference-between-tf-session-and-tf-interactivesession).
 
 
 
