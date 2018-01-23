@@ -60,5 +60,6 @@ print(sess.run(tensor_3))
 
 Well, there are a number of reasons, one being this way we can create multiple graphs, and run different graphs each time we call ```sess.run()```. Another being, we can set session configurations, such as GPU options. You can read up on graphs and session via this [official documentation](https://www.tensorflow.org/programmers_guide/graphs).
 
+(Workshops materials to be continued and updated.)
 
 
