@@ -69,7 +69,7 @@ git push -u origin master
 
 Now you can check the changes on your repository page on Github.
 
-## Exercise 2: Creating Branches
+## Exercise 2: Creating Branches, Merging
 
 With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch. Branching also helps to distribute tasks between developers that work on the same code.
 
@@ -99,27 +99,51 @@ Similar to Exercise 1, you can now add the file with: ```git add .``` then commi
 
 Once you think your code is ready, you can merge it back to your original master.
 
+**4. Switch to your master**
+
 ```bash
-git commit -am"<your commit message>"
+git checkout master
+```
+
+**5. Merge & Push**
+
+```bash
+git merge dev
 git push
 ```
 
-**2. Merge**
-
-
 ## Exercise 3: Group work, simulation of a dev team
 
-This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. First navigate into your Desktop with the following command.
+This is a simulated task of a development team. You will be paired up. Your team will first clone into one single person's repository. I will pair you into groups of two or three. There will be a repository owner and one or two collaborators.
+
+**If you are a collaborator, follow these steps.**
+
+First navigate into your Desktop with the following command.
 
 ```bash
 cd Desktop
 ```
 
-Then make a clone of the repository with the following command.
+Ask for the repository URL from the repo owner. First fork the repository, then make a clone of the forked repository with the following command. Forking a repository means that you create your own copy of the repository in the Github cloud to work on separately on someone's project.
 
 ```bash
 git clone <URL of the repository>
 ```
+
+Then modify the files in it, and push them to your own repository.
+
+```bash
+git commit -am"<commit message>"
+git push
+```
+
+Then navigate to your forked repository, and make a pull request to the original owner of the repository. Making a pull request means "hey, I added a new feature, check it out and if you like it, merge it into your program!"
+
+**If you are the repository owner, follow these steps.**
+
+You can check now your incoming pull requests, and decide whether you want to accept the changes or not.
+
+The reason why we had to use Forking is because of push and pull permission access. In a proper developer team, you would not be using open-source collaborative platform to create your code, and pushing/pulling directly from the repository branches would not be an issue. 
 
 ## Further resources
 
