@@ -60,6 +60,53 @@ print(sess.run(tensor_3))
 
 Well, there are a number of reasons, one being this way we can create multiple graphs, and run different graphs each time we call ```sess.run()```. Another being, we can set session configurations, such as GPU options. You can read up on graphs and session via this [official documentation](https://www.tensorflow.org/programmers_guide/graphs).
 
+## Using Placeholders
+
+Quite frequently you will be using ```tf.placeholder``` instead of ```tf.constant``` because you will be creating a machine learning model that you will use for training, testing, and evaluating. The data you will feed into the graph should be dynamic and in order to achieve that, we have a handy API ```tf.placeholder```.
+
+The previous code can be rewritten as
+
+```python
+a = tf.placeholder(tf.float32)
+b = tf.placeholder(tf.float32)
+
+adder_node = a + b
+```
+
+Here you defined two placeholders that will accept float32 values and an adder node, ```+``` is a shortcut for ```tf.add()```. Since we have a session running we can write the following.
+
+```python
+sess.run(adder_node, {a: 3.0, b: 4.0})
+```
+```bash
+7.0
+```
+
+The second argument after ```adder_node``` is a feed dictionary. Try now creating more complex graphs. Hint, you can sequence your operations by making a list as follows.
+
+```python
+op_1 = a + b
+op_2 = a ** b
+op_3 = a / b
+
+operations = [op_1, op_2, op_3]
+```
+
+Now, you can also run an interactive session, where with the ```.eval()``` API call you can evaluate without having to run the session every time.
+
+```python
+sess = tf.InteractiveSession() #run it only once
+
+for op in operations:
+	print(op.eval())
+	print("\n")
+```
+
+If you are curious what is the difference between ```tf.Session()``` and ```tf.InteractiveSession()``` read [this Stackoverflow post](sess = tf.InteractiveSession()).
+
+
+
+
 (Workshops materials to be continued and updated.)
 
 
