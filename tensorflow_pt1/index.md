@@ -171,7 +171,7 @@ Plotting it out you will get something like this.
 my_data.sample(n=500).plot(kind='scatter',x='x',y='y')
 ```
 
-![Figure 1](/tensorflow_pt1/figures/figure_1.png)
+![Figure 1](/figures/figure_1.png)
 
 Let us set up the building blocks of our simplre regression model.
 
