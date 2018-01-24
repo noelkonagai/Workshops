@@ -142,12 +142,15 @@ More information on the ```tf.matmul()``` API [here](https://www.tensorflow.org/
 
 ## Simple Regression Task
 
-**Importing the necessary libraries**
+**Open Jupyter notebook and create a new file**
+
+Use the commands below to import the necessary libraries
 
 ```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import tensorflow as tf
 %matplotlib inline
 ```
 
@@ -169,6 +172,36 @@ my_data.sample(n=500).plot(kind='scatter',x='x',y='y')
 ```
 
 ![Figure 1](/tensorflow_pt1/figures/figure_1.png)
+
+Let us set up the building blocks of our simplre regression model.
+
+First let's initialize the variables m (slope) and b (y-intercept) at some point. This is what our Machine Learning model will adjust through learning from the loss. 
+ 
+```python
+m = tf.Variable(0.5)
+b = tf.Variable(1.0)
+```
+
+As discussed earlier, we will need placeholders to which we will feed in our data. We need to tell what's the size of this placeholder. **Note to self: explain the concept of batch_size**
+
+```python
+batch_size = 10 
+
+x_placeholder = tf.Placeholder(tf.float32, [batch_size])
+y_placeholder = tf.Placeholder(tf.float32, [batch_size])
+```
+
+Then create our graph, which a simple linear regression with one variable.
+
+```python
+y_model = m * x_placeholder + b
+```
+
+And set up a loss function from which our model will learn to adjust. We use mean squared error (MSE) as the error metrics. It is calculated by adding the squares of the differences of the predicted values (y_model) and the actual y values (y_placeholder). In mathematical notation, it MSE is **Note to self: add MSE**
+
+```python
+error = tf.reduce_sum( tf.square( y_placeholder - y_model ))
+```
 
 (Workshops materials to be continued and updated.)
 
