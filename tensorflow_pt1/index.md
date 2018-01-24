@@ -140,6 +140,36 @@ array([[20, 14],
 
 More information on the ```tf.matmul()``` API [here](https://www.tensorflow.org/api_docs/python/tf/matmul).
 
+## Simple Regression Task
+
+**Importing the necessary libraries**
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
+
+And let's create an artificial dataset. Let's make an ```x_data``` array of random numbers between 0 and 10. Let's make a ```y_true``` value array by adding a random ```noise``` term to ```x_data + b```, where ```b``` is the intercept. This way we get a slightly noisy, more realistic dataset.
+
+```python
+x_data = np.linspace(0.0, 10.0, 1000000)
+noise = np.random.randn(len(x_data))
+b = 5
+
+y_true = (0.5 * x_data ) + b + noise
+
+# and now create a pandas dataframe out of it
+my_data = pd.concat([pd.DataFrame(data=x_data,columns=['x']),pd.DataFrame(data=y_true,columns=['y'])],axis=1)
+```
+Plotting it out you will get something like this.
+```python
+my_data.sample(n=500).plot(kind='scatter',x='x',y='y')
+```
+
+![Figure 1](/tensorflow_pt1/figures/figure_1.png)
+
 (Workshops materials to be continued and updated.)
 
 
