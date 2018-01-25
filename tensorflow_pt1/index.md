@@ -223,6 +223,7 @@ The objective is to optimize our graph by reducing the MSE. We can do so by find
 This was a mathematically light weight intro to graident descents and learning rates. If you want to learn more about optimization algorithms, you can read the following two excellent blog posts.
 
 [Optimization](http://cs231n.github.io/optimization-1/)
+
 [Ruder.io Gradient Descent Optimization Algorithms](http://ruder.io/optimizing-gradient-descent/index.html#batchgradientdescent)
 
 Let us initialize our variables and our session.
