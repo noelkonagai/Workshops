@@ -142,7 +142,7 @@ More information on the ```tf.matmul()``` API [here](https://www.tensorflow.org/
 
 ## Simple Regression Task
 
-**Open Jupyter notebook and create a new file**
+**Open your Jupyter notebook and create a new file**
 
 Use the commands below to import the necessary libraries
 
@@ -182,7 +182,11 @@ m = tf.Variable(0.5)
 b = tf.Variable(1.0)
 ```
 
-As discussed earlier, we will need placeholders to which we will feed in our data. We need to tell what's the size of this placeholder. **Note to self: explain the concept of batch_size**
+As discussed earlier, we will need placeholders to which we will feed in our data. We need to tell what's the size of this placeholder, which will be equal to our batch size. Let's stop here for a second and learn what is a batch size.
+
+**Batch Size & Epoch**
+
+When you are training a machine learning model, you are feeding in data. The number of data points that you feed in to the network at a time is called the batch size. An epoch is a single pass through all the data that you have. Confused? Here is an example. Your data is of 1000 data points. To train your network, you decide to truncate the training process to take in 10 data points at a time, hence your batch size is 10. In order to complete an epoch, you will need to have 100 batches. Still confused? Watch this [video](https://www.youtube.com/watch?v=U4WB9p6ODjM) that explains more in depth what is a batch and an epoch.
 
 ```python
 batch_size = 10 
@@ -197,11 +201,70 @@ Then create our graph, which a simple linear regression with one variable.
 y_model = m * x_placeholder + b
 ```
 
-And set up a loss function from which our model will learn to adjust. We use mean squared error (MSE) as the error metrics. It is calculated by adding the squares of the differences of the predicted values (y_model) and the actual y values (y_placeholder). In mathematical notation, it MSE is **Note to self: add MSE**
+And set up a loss function from which our model will learn to adjust. We use mean squared error (MSE) as the error metrics. It is calculated by adding the squares of the differences of the predicted values (y_model) and the actual y values (y_placeholder).
 
 ```python
 error = tf.reduce_sum( tf.square( y_placeholder - y_model ))
 ```
+
+Let's set up the optimizer with a ```learning_rate``` of ```0.001``` using the following command.
+
+```python
+optimizer = tf.train.GradientDescentOptimizer(learning_rate = 0.001)
+train = optimizer.minimize(error)
+```
+
+Wait a second, we have not discussed gradient descents and learning rates. What is it exactly?
+
+**Gradient Descent & Learning Rate**
+
+The objective is to optimize our graph by reducing the MSE. We can do so by finding a slope ```m``` and intercept ```b``` (weights) that results in the smallest MSE. Now, we could search for it randomly, which would take a few guesses in this case, but it would take forever in case of a much more complicated graph. So we should just take the gradient of the function itself. We can compute the direction along which we should change our weights, which is in the direction of the steepest descent. Now, we should take small steps in our weight space, which can be set by the learning rate. If you take too big of a step, then you might miss the minimum which minimizes the MSE. If you take too small of a learning rate, then your training may take forever.
+
+This was a mathematically light weight intro to graident descents and learning rates. If you want to learn more about optimization algorithms, you can read the following two excellent blog posts.
+
+[Optimization](http://cs231n.github.io/optimization-1/)
+[Ruder.io Gradient Descent Optimization Algorithms](http://ruder.io/optimizing-gradient-descent/index.html#batchgradientdescent)
+
+Let us initialize our variables and our session.
+
+```python
+init = tf.global_variables_initializer()
+
+with tf.Session() as sess:
+    
+    sess.run(init)
+    
+    batches = 1000
+    
+    for i in range(batches):
+        
+        rand_ind = np.random.randint(len(x_data), size = batch_size)
+        
+        feed = { x_placeholder : x_data[rand_ind], y_placeholder : y_true[rand_ind] }
+        
+        sess.run(train,feed_dict=feed)
+        
+    model_m, model_b = sess.run([m,b])
+```
+
+This returns ```model_m``` and ```model_b```, which are our learned ```m``` and ```b``` values.
+
+```python
+print(model_m, model_b)
+```
+
+To plot the line use the following.
+
+```python
+y_hat = x_data * model_m + model_b
+
+my_data.sample(n=500).plot(kind='scatter',x='x',y='y')
+plt.plot(x_data, y_hat,'r')
+```
+
+![Figure 2](/figures/figure_2.png)
+
+Voila! We did it. Now you ask, is TensorFlow really worth studying if a simple regression like this is this tough to achieve? I tricked you into doing this task, in order to introduce some concepts like graph, variable, placeholder, etc. In fact there is a much simpler API that you can use to make simple regression tasks. I uploaded a sample code to the Github repository that you should check out in your own time. **UPLOAD**
 
 (Workshops materials to be continued and updated.)
 
