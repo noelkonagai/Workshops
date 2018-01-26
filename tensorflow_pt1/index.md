@@ -8,6 +8,11 @@ In this workshop you will become familiar with the building blocks of Tensorflow
 
 In order to install TensorFlow on your own device, please consult this [tutorial](https://www.tensorflow.org/install/).
 
+## Workshop files
+
+[simple_regression.ipynb](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt1/simple_regression.ipynb)
+
+
 ## Getting started: Constants, Graphs, Sessions
 
 First and foremost import these two libraries into your python program.
@@ -191,8 +196,8 @@ When you are training a machine learning model, you are feeding in data. The num
 ```python
 batch_size = 10 
 
-x_placeholder = tf.Placeholder(tf.float32, [batch_size])
-y_placeholder = tf.Placeholder(tf.float32, [batch_size])
+x_placeholder = tf.placeholder(tf.float32, [batch_size])
+y_placeholder = tf.placeholder(tf.float32, [batch_size])
 ```
 
 Then create our graph, which a simple linear regression with one variable.
@@ -225,6 +230,8 @@ This was a mathematically light weight intro to graident descents and learning r
 [Optimization](http://cs231n.github.io/optimization-1/)
 
 [Ruder.io Gradient Descent Optimization Algorithms](http://ruder.io/optimizing-gradient-descent/index.html#batchgradientdescent)
+
+[Siraj Raval: The Evolution of Gradient Descent](https://www.youtube.com/watch?v=nhqo0u1a6fw)
 
 Let us initialize our variables and our session.
 
