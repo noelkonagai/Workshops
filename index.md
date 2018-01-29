@@ -17,7 +17,7 @@ Kickstart your software engineer career with a star profile on GitHub. Come to t
 
 _Mar 12 3:30 PM_
 
-Workshop Files:
+Workshop Pages:
 - [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
 - [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
