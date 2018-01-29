@@ -14,10 +14,12 @@ Kickstart your software engineer career with a star profile on GitHub. Come to t
 ## TensorFlow Series
 
 **TensorFlow: The Basics**
-- [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
-- [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 _Mar 12 3:30 PM_
+
+Workshop Files:
+- [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
+- [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 TensorFlow is crucial in building neural networks faster. However, the basics of TensorFlow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end, we will build a rudimentary regression model to put into practice your knowledge of TensorFlow. This workshop is the first of the TensorFlow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshop lays down the foundation for the subsequent two workshops.
 
