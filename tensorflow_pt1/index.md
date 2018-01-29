@@ -1,4 +1,4 @@
-# TensorFlow: The Basics
+# TensorFlow: The Basics - Simple Regression
 
 [Home Page](https://noelkonagai.github.io/Workshops/)
 
@@ -11,7 +11,6 @@ In order to install TensorFlow on your own device, please consult this [tutorial
 ## Workshop files
 
 [simple_regression.ipynb](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt1/simple_regression.ipynb)
-[estimator_api.ipynb](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt1/estimator_api.ipynb)
 
 ## Getting started: Constants, Graphs, Sessions
 
@@ -272,7 +271,7 @@ plt.plot(x_data, y_hat,'r')
 
 ![Figure 2](/figures/figure_2.png)
 
-Voila! We did it. Now you ask, is TensorFlow really worth studying if a simple regression like this is this tough to achieve? I tricked you into doing this task, in order to introduce some concepts like graph, variable, placeholder, etc. In fact there is a much simpler API that you can use to make simple regression tasks. I uploaded a sample code to the Github repository that you should check out in your own time. [estimator_api.ipynb](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt1/estimator_api.ipynb)
+Voila! We did it. Now you ask, is TensorFlow really worth studying if a simple regression like this is this tough to achieve? I tricked you into doing this task, in order to introduce some concepts like graph, variable, placeholder, etc. In fact there is a much simpler API that you can use to make simple regression tasks. I uploaded a sample code to the Github repository that you should check out in your own time. [TensorFlow: The Basics - Estimator API](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 (Workshops materials to be continued and updated.)
 

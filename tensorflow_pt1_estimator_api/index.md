@@ -60,4 +60,47 @@ numpy_input_fn(
 )
 ```
 
-WORKSHOP MATERIALS SOON TO CONTINUE
+```python
+input_func = tf.estimator.inputs.numpy_input_fn({'x':x_train},y_train,batch_size=4,num_epochs=None,shuffle=True)
+train_input_func = tf.estimator.inputs.numpy_input_fn({'x':x_train},y_train,batch_size=4,num_epochs=1000,shuffle=False)
+eval_input_func = tf.estimator.inputs.numpy_input_fn({'x':x_eval},y_eval,batch_size=4,num_epochs=1000,shuffle=False)
+```
+
+
+## tf.estimator.LinearRegressor.train
+
+The ```estimator.train``` function takes in an input function that we have defined in the above cell and the number of steps to train the model.
+
+```python
+estimator.train(input_fn = input_func, steps = 1000)
+```
+
+This will give you an output for every 100 steps. Here is a sample output below.
+
+```
+INFO:tensorflow:loss = 2.09217, step = 301 (0.092 sec)
+INFO:tensorflow:global_step/sec: 1178.18
+```
+
+The ```tf.estimator.LinearRegressor``` API defaults to an ```FTRL Optimizer```, which stands for "Follor The Regularized Leader." Hence it outputs the losses calculated in this algorithm. It is quite complex to explain the mathematical background of this optimization method in thie workshop, but you may read up [in this CMU lecture guide](http://www.cs.cmu.edu/~avrim/ML07/lect1019.pdf). You may alternatively choose a different instance of ```tf.Optimizer```
+
+Now that you have set up your model, time to train it.
+
+```python
+train_metrics = estimator.evaluate(input_fn=train_input_func,steps=1000)
+```
+
+And now to test it.
+
+```python
+eval_metrics = estimator.evaluate(input_fn=eval_input_func,steps=1000)
+```
+
+To print the evaluation metrics, type the following
+
+```python
+print("train metrics: {}".format(train_metrics))
+print("eval metrics: {}".format(eval_metrics))
+```
+
+## Making Predictions
