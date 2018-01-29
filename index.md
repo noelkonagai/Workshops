@@ -13,9 +13,9 @@ Kickstart your software engineer career with a star profile on GitHub. Come to t
 
 ## TensorFlow Series
 
-[**TensorFlow: The Basics - Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
-
-[**TensorFlow: The Basics - Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
+**TensorFlow: The Basics**
+- [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
+- [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 _Mar 12 3:30 PM_
 
