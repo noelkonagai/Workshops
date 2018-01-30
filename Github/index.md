@@ -6,7 +6,7 @@ Think of Github as the Facebook for those who write code. You want to share your
 
 ## Basic Workflow
 
-Github Guides [Github Flow](https://guides.github.com/introduction/flow/)
+Reading: Github Guides [Github Flow](https://guides.github.com/introduction/flow/)
 
 As seen from the figure below, git versioning is useful when your developer team works on new features for your application. For instance, you have a chat application and you want to integrate a voice-recording function, then you would do so by creating a new feature branch spinning off of the master branch. The master branch remains the production branch, and the feature branch becomes the development branch. Once the developments have been finalized, everything has been debugged, then the feature branch can be merged with the master branch.
 
