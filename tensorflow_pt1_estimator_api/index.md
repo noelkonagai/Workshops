@@ -1,7 +1,6 @@
 # TensorFlow: The Basics -  Estimator API
 
-[Home Page](https://noelkonagai.github.io/Workshops/)
-
+## **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
 
 ## Creating the data
 
@@ -104,3 +103,5 @@ print("eval metrics: {}".format(eval_metrics))
 ```
 
 ## Making Predictions
+
+## **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**

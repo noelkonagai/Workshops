@@ -1,6 +1,6 @@
 # TensorFlow: The Basics - Simple Regression
 
-[Home Page](https://noelkonagai.github.io/Workshops/)
+## **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
 
 TensorFlow was originally developed by researchers and engineers working on the Google Brain Team within Google's Machine Intelligence research organization for the purposes of conducting machine learning and deep neural networks research, but the system is general enough to be applicable in a wide variety of other domains as well. [TensorFlow.org](https://www.tensorflow.org/)
 
@@ -273,6 +273,6 @@ plt.plot(x_data, y_hat,'r')
 
 Voila! We did it. Now you ask, is TensorFlow really worth studying if a simple regression like this is this tough to achieve? I tricked you into doing this task, in order to introduce some concepts like graph, variable, placeholder, etc. In fact there is a much simpler API that you can use to make simple regression tasks. I uploaded a sample code to the Github repository that you should check out in your own time. [TensorFlow: The Basics - Estimator API](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
-(Workshops materials to be continued and updated.)
+## **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
 
 
