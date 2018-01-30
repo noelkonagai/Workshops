@@ -76,7 +76,7 @@ Now you can check the changes on your repository page on Github.
 
 ## Exercise 2: Creating Branches, Merging
 
-With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file, before you stage them on your master branch. Branching also helps to distribute tasks between developers that work on the same code.
+With the branches you create, you are managing the versions of the file you are editing. The idea is to create branches for beta versions of the file before you stage them on your master branch. Branching also helps to distribute tasks between developers that work on the same code.
 
 **1. Creating a branch**
 
@@ -123,7 +123,7 @@ This is a simulated task of a development team. You will be paired up. Your team
 
 **If you are a collaborator, follow these steps.**
 
-First navigate into your Desktop with the following command.
+Firstm, navigate to your Desktop with the following command.
 
 ```bash
 cd Desktop
