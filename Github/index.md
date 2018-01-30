@@ -150,6 +150,30 @@ You can check now your incoming pull requests, and decide whether you want to ac
 
 The reason why we had to use Forking is because of push and pull permission access. In a proper developer team, you would not be using open-source collaborative platform to create your code, and pushing/pulling directly from the repository branches would not be an issue. 
 
+## Writing a Readme.md
+
+A ```Readme.md``` is a must for your repository. This is how you introduce and explain what your code is about. In fact, it has a very easy syntax. I will give some examples below, and for further reference, check this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) out.
+
+```
+# H1
+## H2
+### H3
+```
+
+# H1
+## H2
+### H3
+
+```
+**bold**
+_italics_
+~~cross out~~
+```
+
+**bold**
+_italics_
+~~cross out~~
+
 
 ## Further resources
 
