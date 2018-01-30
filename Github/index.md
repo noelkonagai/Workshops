@@ -4,9 +4,14 @@
 
 Think of Github as the Facebook for those who write code. You want to share your code _(create a repository)_, you want to like someone's code _(starring repositories)_, you want to jump into conversations about code because they might have a bug _(to submit an issue)_. Your future employer might also ask for your Github, so building your Github presence is like building a portfolio. But at its core is Git, which is a version control system. In a team setting, you will be able to independently and parallely work on a code and later on _merge_ the changes into a single file. These parallel workflows are called _branches_. I will walk you through some of the concepts and techniques that lay the foundation for you to master Github. We will be simulating a coding project where you are supposed to overcome the challenges that come with versioning.
 
-## 5 min reader before the workshop
+## Basic Workflow
 
 Github Guides [Github Flow](https://guides.github.com/introduction/flow/)
+
+As seen from the figure below, git versioning is useful when your developer team works on new features for your application. For instance, you have a chat application and you want to integrate a voice-recording function, then you would do so by creating a new feature branch spinning off of the master branch. The master branch remains the production branch, and the feature branch becomes the development branch. Once the developments have been finalized, everything has been debugged, then the feature branch can be merged with the master branch.
+
+![Figure 1](/figures/figure_1.png)
+
 
 ## Glossary of Terms
 - repository
