@@ -11,7 +11,7 @@ _Feb 05 11:00 AM_
 
 Kickstart your software engineer career with a star profile on GitHub. Come to this workshop to learn the basics of git versioning, as well as to learn some tips on building your portfolio. You will be working in groups to simulate versioning problems. In this workshop, you will learn how to create a repository, start and manage branches, merge pull requests, write a basic markdown file, and how to be social on GitHub!
 
-[**Data Scraping: Brush up your Python Skills**](https://noelkonagai.github.io/Workshops/data_scraping_pt1)
+[**Data Scraping: Brush up your Python Skills**](https://noelkonagai.github.io/Workshops/web_scraping_pt1)
 
 _Mar 02 1:30 PM - 3:00 PM_
 

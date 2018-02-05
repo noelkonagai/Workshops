@@ -82,9 +82,9 @@ With the branches you create, you are managing the versions of the file you are 
 
 Creating a new branch
 ```bash
-git checkout -b noel-s-branch
+git checkout -b <branch name>
 ```
-Using this you will be switched to ```noel-s-branch```
+Using this you will be switched to ```<branch name>```
 
 Basing your new branch on an existing branch
 
