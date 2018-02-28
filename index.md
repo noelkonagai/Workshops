@@ -19,9 +19,11 @@ _Mar 12 3:30 PM_
 
 TensorFlow is crucial in building neural networks faster. However, the basics of TensorFlow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end, we will build a rudimentary regression model to put into practice your knowledge of TensorFlow. This workshop is the first of the TensorFlow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshop lays down the foundation for the subsequent two workshops.
 
-[**TensorFlow Basics: Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_simple_regression/)
+[TensorFlow Basics: Simple Regression](https://noelkonagai.github.io/Workshops/tensorflow_pt1_simple_regression/)
 
-[**TensorFlow Basics: Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
+[TensorFlow Basics: Estimator API](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
+
+------
 
 **TensorFlow: Wide & Deep Learning**
 
