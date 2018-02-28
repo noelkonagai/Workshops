@@ -1,4 +1,7 @@
 # Data Scraping: Brush up your Python skills
+## Pt 1. Pandas Introduction
+
+Pandas are cute animals that you can find in the zoo of Chengdu. True, but Pandas is also your best friend when you want to deal with data in Python. You can import all sorts of files, and for the purposes of this workshop we will import a CSV Housing data file that contains information on household value, median household age, household's proximity to the ocean, etc. Once we have imported this data, it will become a Dataframe object. Each column in the Dataframe is called a Series. Now why is Pandas our best friend when dealing with data? It cuts down our runtime for lot of the functions, such as searching functions, that we would need to write manually.
 
 ## 1. Setting up Pandas
 
@@ -152,3 +155,23 @@ narrowed_df = search_function(26, 30, "housing_median_age", data)
 It took about 4 ms. With for loops this takes more than 100 times longer! Crazy!
 
 To summarize, Pandas makes your life easier when you deal with bigger data. With this small data, you will not notice much difference in the runtime, but once your data becomes larger (and trust me it will), Pandas will noticeably perform better.
+
+## 5. Sorting dataframes with Pandas
+
+Again, you could sort with your manually written functions, but in Pandas you can call the handy  ```.sort_values()``` on a Dataframe. You will probably use these three arguments below, for the rest check out the official [API guide](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sort_values.html).
+
+by -- string value of the column name by which you want to sort
+axis -- direction of sorting, 0 for sortying by the ‘index’, 1 for sorting by ‘columns’, defaults to 0
+ascending -- boolean value True/False
+
+Let's sort our dataframe by the median household age.
+
+```python
+data.sort_values('housing_median_age')[:5]
+```
+
+If we want the oldest houses first:
+
+```python
+data.sort_values('housing_median_age', ascending = False)[:5]
+```

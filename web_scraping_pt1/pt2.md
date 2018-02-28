@@ -72,7 +72,4 @@ Now run again the following:
 python sample.py -q="bars" -l="San Francisco, CA"
 ```
 
-And look now at your folder where ```sample.py``` is. You see now a ```data.txt``` file that contains the JSON response file! It looks quite messy, and it should look like this but our pprint library prettified it for us.
-
-
-
+And look now at your folder where ```sample.py``` is. You see now a ```data.txt``` file that contains the JSON response file! It looks quite messy, and it should look like this but our pprint library prettified it for us. Now, this is not the only thing that Yelp API can do. For more details and to appease your curiosity, read the [ Official Documentation](https://www.yelp.com/developers/documentation/v3/get_started).
