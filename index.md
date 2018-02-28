@@ -20,6 +20,7 @@ _Mar 12 3:30 PM_
 TensorFlow is crucial in building neural networks faster. However, the basics of TensorFlow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end, we will build a rudimentary regression model to put into practice your knowledge of TensorFlow. This workshop is the first of the TensorFlow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshop lays down the foundation for the subsequent two workshops.
 
 [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_simple_regression/)
+
 [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 **TensorFlow: Wide & Deep Learning**
@@ -43,6 +44,7 @@ _Mar 09 1:30 PM - 3:00 PM_
 This is the first session of a data scraping workshops series for the Business Analytics class. Working with data in Python is not a rocket science, but also requires some foundational skills. To get the most out of this workshop, a stable understanding of Python is required. Open the workshop page to learn about the resources for Data managment in Python with Pandas. In this workshop you will learn the basic functionalities of the Pandas library (think of it as Excel but faster and cooler), and you will also learn how to use Yelp API. If time permits, the third topic of the workshop is how to read and manage JSON files, which are typically the responses you get from API requests.
 
 [Web Scraping Part 1: Introduction to Pandas](https://noelkonagai.github.io/Workshops/web_scraping_pt1_pandas/)
+
 [Web Scraping Part 1: Using Yelp API to get JSON data](https://noelkonagai.github.io/Workshops/web_scraping_pt1_yelp/)
 
 **Web Scraping Part 2**
