@@ -31,6 +31,8 @@ _Mar 14 3:30 PM_
 
 In this workshop, you will learn how to create a Wide and Deep Neural Network. With a Wide and Deep Neural Network, you will be able to perform classification and regression tasks. The skills you will learn through this workshop include the following. You will be able to create feature columns (numerical, categorical with hash bucket, bucketized) in TensorFlow, cross these columns if needed for the Wide Model, embed sparse feature columns into the Deep Model and combine them for a Wide & Deep Model. The workshop will provide a sample dataset that you will use to train your model. If you are interested in how Wide & Deep Learning works, read this [research paper](https://arxiv.org/abs/1606.07792). 
 
+------
+
 **TensorFlow: Recurrent Neural Networks**
 
 _Mar 19 3:30 PM_
@@ -48,6 +50,8 @@ This is the first session of a data scraping workshops series for the Business A
 [Web Scraping Part 1: Introduction to Pandas](https://noelkonagai.github.io/Workshops/web_scraping_pt1_pandas/)
 
 [Web Scraping Part 1: Using Yelp API to get JSON data](https://noelkonagai.github.io/Workshops/web_scraping_pt1_yelp/)
+
+------
 
 **Web Scraping Part 2**
 
