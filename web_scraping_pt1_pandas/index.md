@@ -1,5 +1,4 @@
-# Data Scraping: Brush up your Python skills
-## Pt 1. Pandas Introduction
+# Web Scraping Part 1: Introduction to Pandas
 
 Pandas are cute animals that you can find in the zoo of Chengdu. True, but Pandas is also your best friend when you want to deal with data in Python. You can import all sorts of files, and for the purposes of this workshop we will import a CSV Housing data file that contains information on household value, median household age, household's proximity to the ocean, etc. Once we have imported this data, it will become a Dataframe object. Each column in the Dataframe is called a Series. Now why is Pandas our best friend when dealing with data? It cuts down our runtime for lot of the functions, such as searching functions, that we would need to write manually.
 

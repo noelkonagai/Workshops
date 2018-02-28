@@ -11,23 +11,16 @@ _Feb 05 11:00 AM_
 
 Kickstart your software engineer career with a star profile on GitHub. Come to this workshop to learn the basics of git versioning, as well as to learn some tips on building your portfolio. You will be working in groups to simulate versioning problems. In this workshop, you will learn how to create a repository, start and manage branches, merge pull requests, write a basic markdown file, and how to be social on GitHub!
 
-[**Data Scraping: Brush up your Python Skills**](https://noelkonagai.github.io/Workshops/web_scraping_pt1)
-
-_Mar 02 1:30 PM - 3:00 PM_
-
-This is the first session of the three part data scraping workshops series for the Business Analytics class. Working with data in Python is not a rocket science, but also requires some foundational skills. To get the most out of this workshop, a stable understanding of Python is required. Open the workshop page to learn about the resources for Python programming. In this workshop I will be focusing on introducing some of the libraries, such as BeautifulSoup, Pandas, and Urllib that we will be using for data scraping.
-
 ## TensorFlow Series
 
 **TensorFlow: The Basics**
 
 _Mar 12 3:30 PM_
 
-Workshop Pages:
-- [**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1/)
-- [**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
-
 TensorFlow is crucial in building neural networks faster. However, the basics of TensorFlow may be confusing as building, training, testing models aren’t that straightforward. Come to this session to learn about placeholders, variables, graphs, and sessions. In the end, we will build a rudimentary regression model to put into practice your knowledge of TensorFlow. This workshop is the first of the TensorFlow workshop series in which Deep Neural Networks and Recurrent Neural Networks will be explored. The Basics workshop lays down the foundation for the subsequent two workshops.
+
+[**Simple Regression**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_simple_regression/)
+[**Estimator API**](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 **TensorFlow: Wide & Deep Learning**
 
@@ -41,12 +34,19 @@ _Mar 19 3:30 PM_
 
 This is a more advanced TensorFlow workshop. In the first 15 minutes, we will cover the building blocks of Recurrent Neural Networks (RNN). RNNs are typically used for time-series data prediction, as well as language modeling. The core feature of the model is that it feeds in the output from the previous state among the inputs to the new state, thus creating some degree of time-bound (or syntax relational) dependency. We will get started with a time-series dataset, which we will use to train our model to predict future steps. If you are interested in how RNNs work, read this [excellent guide](https://colah.github.io/posts/2015-08-Understanding-LSTMs/).
 
-## Web Data Collection Series
+## Business Analytics: Web Scraping Series
 
-**Using Yelp API**
+**Web Scraping Part 1**
 
-_Time TBD_
+_Mar 09 1:30 PM - 3:00 PM_
 
-**Data Scraping**
+This is the first session of a data scraping workshops series for the Business Analytics class. Working with data in Python is not a rocket science, but also requires some foundational skills. To get the most out of this workshop, a stable understanding of Python is required. Open the workshop page to learn about the resources for Data managment in Python with Pandas. In this workshop you will learn the basic functionalities of the Pandas library (think of it as Excel but faster and cooler), and you will also learn how to use Yelp API. If time permits, the third topic of the workshop is how to read and manage JSON files, which are typically the responses you get from API requests.
 
-_Time TBD_
+[Web Scraping Part 1: Introduction to Pandas](https://noelkonagai.github.io/Workshops/web_scraping_pt1_pandas/)
+[Web Scraping Part 1: Using Yelp API to get JSON data](https://noelkonagai.github.io/Workshops/web_scraping_pt1_yelp/)
+
+**Web Scraping Part 2**
+
+_April 16 1:30 PM - 3:00 PM_
+
+Description to be updated.

@@ -1,5 +1,4 @@
-# Data Scraping: Brush up your Python skills
-## Pt 2. Using Yelp API to get JSON data
+# Web Scraping Part 1: Using Yelp API to get JSON data
 
 Yelp is an application, which crowd sources reviews of venus such as restaurants, cafes, and more. We will be using Yelp API (Application Programming Interface) to collect data with sample search queries.
 
