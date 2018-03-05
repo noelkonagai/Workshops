@@ -51,7 +51,7 @@ This is the first session of a data scraping workshops series for the Business A
 
 [Web Scraping Part 1: Using Yelp API to get JSON data](https://noelkonagai.github.io/Workshops/web_scraping_pt1_yelp/)
 
-[Web Scraping Part 1: Web Scraping Part 1: Importing your JSON data into Pandas](https://noelkonagai.github.io/Workshops/web_scraping_pt1_json/)
+[Web Scraping Part 1: Importing your JSON data into Pandas](https://noelkonagai.github.io/Workshops/web_scraping_pt1_json/)
 
 ------
 
