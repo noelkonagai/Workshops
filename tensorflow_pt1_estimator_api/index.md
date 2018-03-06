@@ -1,4 +1,4 @@
-# TensorFlow: The Basics -  Estimator API
+# TensorFlow: The BasicsEstimator API
 
 ### **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
 

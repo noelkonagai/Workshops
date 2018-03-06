@@ -14,7 +14,7 @@ In order to install TensorFlow on your own device, please consult this [tutorial
 
 ## Getting started: Constants, Graphs, Sessions
 
-First and foremost import these two libraries into your python program.
+First and foremost import TensorFlow.
 
 ```python
 import tensorflow as tf
