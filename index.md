@@ -5,11 +5,13 @@ This is where the descriptions of the workshops will be uploaded
 
 ## Kickstarters
 
-[**GitHub**](https://noelkonagai.github.io/Workshops/github/)
+**Github**
 
 _Feb 05 11:00 AM_ ‖ MacLab 424
 
 Kickstart your software engineer career with a star profile on GitHub. Come to this workshop to learn the basics of git versioning, as well as to learn some tips on building your portfolio. You will be working in groups to simulate versioning problems. In this workshop, you will learn how to create a repository, start and manage branches, merge pull requests, write a basic markdown file, and how to be social on GitHub!
+
+[GitHub Workshop](https://noelkonagai.github.io/Workshops/github/)
 
 ## TensorFlow Series
 
@@ -21,8 +23,6 @@ TensorFlow is crucial in building neural networks faster. However, the basics of
 
 [TensorFlow Basics: Simple Regression](https://noelkonagai.github.io/Workshops/tensorflow_pt1_simple_regression/)
 
-[TensorFlow Basics: Estimator API](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
-
 ------
 
 **TensorFlow: Wide & Deep Learning**
@@ -30,6 +30,8 @@ TensorFlow is crucial in building neural networks faster. However, the basics of
 _Mar 14 3:30 PM_ ‖ MacLab 504
 
 In this workshop, you will learn how to create a Wide and Deep Neural Network. With a Wide and Deep Neural Network, you will be able to perform classification and regression tasks. The skills you will learn through this workshop include the following. You will be able to create feature columns (numerical, categorical with hash bucket, bucketized) in TensorFlow, cross these columns if needed for the Wide Model, embed sparse feature columns into the Deep Model and combine them for a Wide & Deep Model. The workshop will provide a sample dataset that you will use to train your model. If you are interested in how Wide & Deep Learning works, read this [research paper](https://arxiv.org/abs/1606.07792). 
+
+[TensorFlow: The Estimator API](https://noelkonagai.github.io/Workshops/tensorflow_pt1_estimator_api/)
 
 ------
 

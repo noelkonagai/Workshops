@@ -1,8 +1,8 @@
-# TensorFlow: The BasicsEstimator API
+# TensorFlow: The Estimator API
 
-### **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
+The Estimators are a high-level TensorFlow API, making your machine learning model making much easier. With the Estimator API you can train, test, and predict datapoints. There are a couple of pre-made estimators such as ```LinearRegressor```. For this workshop we are going to use this high-level API to practice the fundamentals of TensorFlow.
 
-## Creating the data
+## 1. Create the data
 
 In order to complete this exercise, please create your artificial data in the following way.
 
@@ -22,7 +22,7 @@ y_true = (0.5 * x_data ) + b + noise
 my_data = pd.concat([pd.DataFrame(data=x_data,columns=['x']),pd.DataFrame(data = y_true,columns=['y'])],axis=1)
 ```
 
-## Using tf.estimator API
+## 2. Setting up the tf.estimator API
 
 The ```tf.estimator.LinearRegressor``` takes in feature columns as its argument. For this you need to create a feature column with ```tf.feature_column.numeric_column```. There are other types of columns as well. You can read more through the official API guide [tf.feature_column](https://www.tensorflow.org/api_docs/python/tf/feature_column).
 
