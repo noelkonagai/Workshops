@@ -101,7 +101,3 @@ To print the evaluation metrics, type the following
 print("train metrics: {}".format(train_metrics))
 print("eval metrics: {}".format(eval_metrics))
 ```
-
-## Making Predictions
-
-### **[Back to Home Page](https://noelkonagai.github.io/Workshops/)**
