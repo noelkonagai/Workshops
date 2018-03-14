@@ -1,4 +1,4 @@
-# TensorFlow: Wide and Deep Learning
+# TensorFlow: Wide & Deep Learning API
 
 In this workshop I will introduce you to TensorFlow's Wide and Deep Learning model. We will be using TensorFlow's tutorial files. This workshop will comment on each section of the TensorFlow tutorial file. You can expect to have an overview and explanation on how to call on certain APIs to process your data for a future project.
 
@@ -8,6 +8,8 @@ In this workshop I will introduce you to TensorFlow's Wide and Deep Learning mod
 Above is an image of a Wide and Deep Network. This type of combined structure combines linear regressions' so called "memorization" feature and deep neural networks' "generalization" feature. The quote below from this [research paper](https://arxiv.org/abs/1606.07792) from explains what these two concepts mean.
 
 >"Memorization can be loosely defined as learning the frequent co-occurrence of items or features and exploiting the correlation available in the historical data. Generalization, on the other hand, is based on transitivity of correlation and explores new feature combinations that have never or rarely occurred in the past."
+
+To start, download and run [data_download.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt2_widedeep/data_download.py) that will download ```adult.data``` and ```adult.test``` files. Also, download [wide_deep.py](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt2_widedeep/wide_deep.py), which you will run at the end of the workshop.
 
 ## 1. Choice of Model: DNNLinearCombinedClassifier
 
@@ -166,7 +168,7 @@ model = tf.estimator.DNNLinearCombinedClassifier(
 
 ## 5. Run the sample files
 
-Run ```data_download.py``` and then run ```wide_deep.py```.
+Run ```wide_deep.py```.
 
 This is the end of the workshop.
 
