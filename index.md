@@ -29,11 +29,13 @@ TensorFlow is crucial in building neural networks faster. However, the basics of
 
 _Mar 14 3:30 PM_ ‖ MacLab 504
 
-In this workshop, you will learn learn two Estimator APIs. The first part of the workshop will focus on ```LinearRegressor``` and the second part will focus on ```DNNLinearCombinedClassifier``` With a Wide and Deep Neural Network, you will be able to perform classification and regression tasks. The skills you will learn through this workshop include the following. You will be able to create feature columns (numerical, categorical with hash bucket, bucketized) in TensorFlow, cross these columns if needed for the Wide Model, embed sparse feature columns into the Deep Model and combine them for a Wide & Deep Model. The workshop will provide a sample dataset that you will use to train your model. If you are interested in how Wide & Deep Learning works, read this [research paper](https://arxiv.org/abs/1606.07792). 
+In this workshop, you will learn learn two Estimator APIs. The first part of the workshop will focus on ```LinearRegressor``` and the ```DNNLinearCombinedClassifier``` With a Wide and Deep Neural Network, you will be able to perform classification and regression tasks. The skills you will learn through this workshop include the following. You will be able to create feature columns (numerical, categorical with hash bucket, bucketized) in TensorFlow, cross these columns if needed for the Wide Model, embed sparse feature columns into the Deep Model and combine them for a Wide & Deep Model.If you are interested in how Wide & Deep Learning works, read this [research paper](https://arxiv.org/abs/1606.07792). For the second part of the workshop we will do a live coding competition, using the [Pima Indians Diabetes Dataset](https://www.kaggle.com/uciml/pima-indians-diabetes-database/data) to predict the occurrence of diabetes.
 
 [TensorFlow: The LinearRegressor API](https://noelkonagai.github.io/Workshops/tensorflow_pt2_linearregressor/)
 
 [TensorFlow: Wide & Deep Learning API](https://noelkonagai.github.io/Workshops/tensorflow_pt2_widedeep/)
+
+[TensorFlow: Live Coding](https://noelkonagai.github.io/Workshops/tensorflow_pt2_livecoding)
 
 ------
 
