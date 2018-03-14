@@ -7,7 +7,7 @@ In this workshop I will introduce you to TensorFlow's Wide and Deep Learning mod
 
 Above is an image of a Wide and Deep Network. This type of combined structure combines linear regressions' so called "memorization" feature and deep neural networks' "generalization" feature. The quote below from this [research paper](https://arxiv.org/abs/1606.07792) from explains what these two concepts mean.
 
->"Memorization can be loosely defined as learning the frequent co-occurrence of items or features and exploiting the correlation available in the historical data. Generalization, on the other hand, is based on transitivity of correlation and explores new feature combinations that have never or rarely occurred in the past."
+"Memorization can be loosely defined as learning the frequent co-occurrence of items or features and exploiting the correlation available in the historical data. Generalization, on the other hand, is based on transitivity of correlation and explores new feature combinations that have never or rarely occurred in the past."
 
 To start, download and run [data_download.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt2_widedeep/data_download.py) that will download ```adult.data``` and ```adult.test``` files. Also, download [wide_deep.py](https://github.com/noelkonagai/Workshops/blob/master/tensorflow_pt2_widedeep/wide_deep.py), which you will run at the end of the workshop.
 
@@ -15,12 +15,13 @@ To start, download and run [data_download.py](https://minhaskamal.github.io/Down
 
 The model that we are going to use is called ```DNNLinearCombinedClassifier```. This not only combines the "wide" and "deep" models but also trains them together. There are number of other models, which all work slightly differently. Depending on your project, you may use any of the following non-exhaustive list.
 
-```LinearClassifier```
-```LinearRegressor```
-```LogisticRegressor```
-```KMeansClustering```
-```DNNClassifier```
-```DNNRegressor```
+
+- LinearClassifier
+- LinearRegressor
+- LogisticRegressor
+- KMeansClustering
+- DNNClassifier
+- DNNRegressor
 
 You may read up on these at [tf.contrib.learn](https://www.tensorflow.org/api_docs/python/tf/contrib/learn).
 
