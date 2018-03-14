@@ -55,7 +55,18 @@ OFFSET = 0
 
 You have raised the ```SEARCH_LIMIT``` to its maximum 50. This way you will get the listings from 0 through 49. To get the listings from 50 through 99, you can change the ```OFFSET``` to 50.
 
-Now, to line 133 after ```response = search(API_KEY, term, location)``` add the following.
+At the end of line 106, add a comma and write in the next line ```'offset':OFFSET```.
+
+```python
+    url_params = {
+        'term': term.replace(' ', '+'),
+        'location': location.replace(' ', '+'),
+        'limit': SEARCH_LIMIT,
+        'offset': OFFSET
+    }
+```
+
+Now, after ```response = search(API_KEY, term, location)``` add the following.
 
 ```python
 with open('data.json', 'w') as openfile:
