@@ -35,7 +35,7 @@ In this workshop, you will learn learn two Estimator APIs. The first part of the
 
 [TensorFlow: Wide & Deep Learning API](https://noelkonagai.github.io/Workshops/tensorflow_pt2_widedeep/)
 
-[TensorFlow: Live Coding](https://noelkonagai.github.io/Workshops/tensorflow_pt2_livecoding)
+[TensorFlow: Live Coding](https://github.com/noelkonagai/Workshops/tree/master/tensorflow_pt2_livecoding)
 
 ------
 
