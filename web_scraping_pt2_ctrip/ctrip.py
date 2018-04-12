@@ -3,6 +3,8 @@ import pprint
 import json
 import argparse
 import numpy as np
+import pandas as pd
+from pandas.io.json import json_normalize
 from datetime import datetime, timedelta
 
 class Cookie:
@@ -90,8 +92,6 @@ class Query:
 
 		self.flightResults = flight_results
 
-		#return flight_results ##might not need this
-
 	def get_lowest_price(self):
 
 		data = []
@@ -112,23 +112,38 @@ class Query:
 		# print(flight_results[i]["flightIntlPolicys"][0]["PriceInfos"][0]["TotalPrice"]) ##gives the price in USD of the ith listing
 		# print(flight_results[i]["flightIntlPolicys"][0]["ViewTotalPrice"]) ##what actually gets displayed on the website (the cheapest price)
 
+	def json_results(self):
+
+		df = json_normalize(self.flightResults)
+		df.to_csv('all_data.csv')
+
+		with open('all_data.json', 'w') as outfile:
+			json.dump(self.flightResults, outfile)
+
 
 def main():
 
-	################
+	################################################################
 	#
-	# Run these to get a session with cookie information
+	# COOKIE SESSION
 	#
-	################
-
+	# Run these to get a session with cookie information. To make
+	# sure this works, before you start tweaking the code, add the
+	# search URL from your browser below.
+	#
+	################################################################
 
 	session = Cookie("https://www.trip.com/flights/shanghai-to-tokyo/tickets-sha-tyo/?flighttype=s&dcity=sha&acity=tyo&startdate=2018-08-01&class=y&quantity=1&searchboxarg=t")
 	session.get()
 
-
+	################################################################
+	#
 	# DEFAULT VALUES
-
-	## Picks a random starting day that's at least a day away from today, and maximum 100 days away from today
+	#
+	# This picks a random starting day that's at least a day 
+	# away from today, and maximum 100 days away from today.
+	#
+	################################################################
 
 	today = datetime.strptime(datetime.now().strftime('%Y-%m-%d'), "%Y-%m-%d")
 	modified_date = today + timedelta(days=np.random.randint(1,100))
@@ -136,6 +151,16 @@ def main():
 
 	default_departure_city = 'SHA'
 	default_arrival_city = 'TYO'
+
+	################################################################
+	#
+	# ARGUMENTS
+	#
+	# As you develop further this program, you might add different
+	# arguments. For now, this program can only check prices of
+	# one-way tickets.
+	#
+	################################################################
 
 	parser = argparse.ArgumentParser()
 
@@ -148,6 +173,7 @@ def main():
 	flights = Query(input_values.date, input_values.departure_city, input_values.arrival_city)
 	flights.request()
 	flights.get_lowest_price()
+	flights.json_results()
 
 if __name__ == '__main__':
     main()

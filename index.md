@@ -63,6 +63,6 @@ This is the first session of a data scraping workshops series for the Business A
 
 **Web Scraping Part 2**
 
-_April 16 1:30 PM - 3:00 PM_ ‖ MacLab 504
+_April 26 1:30 PM - 3:00 PM_ ‖ Location TBD
 
-Description to be updated.
+This workshop will delve deeper into understanding API requests, as well as methods for retrieving JSON data when there are no publicly available APIs with the use case of collecting flight price data from the English site of Ctrip. We will use Postman to intercept automatic API requests that our browser makes. This workshop assumes you are comfortable using Pandas, as well as you have some knowledge of APIs. You may want to recap the last workshop's materials through the online workshop videos.
